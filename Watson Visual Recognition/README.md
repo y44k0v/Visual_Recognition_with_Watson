@@ -3,7 +3,7 @@
 This extension enables you to harness the power of machine learning and automatically analyze the contents of pictures.
 
 <p align="center">
-  <img src="Watson Visual Recognition/default.png"/ width=320px>
+  <img src="default.png"/ width=320px>
 </p>
 
 service demo:
@@ -14,7 +14,7 @@ https://visual-recognition-demo.mybluemix.net/
 Example stream
 
 <p align="center">
-  <img src="Watson Visual Recognition/Screenshot/stream.PNG"/ width=600px>
+  <img src="Screenshot/stream.PNG"/ width=600px>
 </p>
 
 Example images
@@ -30,7 +30,7 @@ WatsonVisualRecognition node requires a connected source. In our example a 'Var.
 The source must contain two columns of variables: one will be your pictures id or names, the other the urls you wish to classify.
 
 <p align="center">
-  <img src="Watson Visual Recognition/Screenshot/input1.PNG"/ width=600px>
+  <img src="Screenshot/input1.PNG"/ width=600px>
 </p>
 
 	
@@ -40,7 +40,7 @@ Optionally you can specify custom classifier or api version. To learn more about
 [WatsonCreateClassifier][9]
 
 <p align="center">
-  <img src="Watson Visual Recognition/Screenshot/input2.PNG"/ width=600px>
+  <img src="Screenshot/input2.PNG"/ width=600px>
 </p>
 	
 	
@@ -50,7 +50,7 @@ The generated output is a table that contains the picture ids, picture urls, cla
 Note that for one image the number of generated table entries depends on the number of classes assigned to picture by the classifier.
 	
 <p align="center">
-  <img src="Watson Visual Recognition/Screenshot/output.PNG"/ width=600px>
+  <img src="Screenshot/output.PNG"/ width=600px>
 </p>
 
 Looking for pictures to classify? Try these extensions: [FacebookPhotoImport][7] and [InstagramPictures][8]

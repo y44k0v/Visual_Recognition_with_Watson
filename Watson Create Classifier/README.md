@@ -3,7 +3,7 @@
 This extension enables you to create your own custom image classifiers 
 
 <p align="center">
-  <img src="Watson Create Classifier/default.png"/ width=320px>
+  <img src="default.png"/ width=320px>
 </p>
 
 service demo:
@@ -15,14 +15,14 @@ https://visual-recognition-demo.mybluemix.net/train
 Example stream
 
 <p align="center">
-  <img src="Watson Create Classifier/Screenshot/stream.PNG"/ width=600px>
+  <img src="Screenshot/stream.PNG"/ width=600px>
 </p>
 
 
 WatsonCreateClassifier node requires a connected source with your unique 'api_key' for bluemix services.
 
 <p align="center">
-  <img src="Watson Create Classifier/Screenshot/input1.PNG"/ width=600px>
+  <img src="Screenshot/input1.PNG"/ width=600px>
 </p>
 
 	
@@ -31,7 +31,7 @@ In the main node window chose your 'api_key' for the 'Watson Api Key' field. Nex
 Negative examples are not stored as new classes, but are equally important for training!
 
 <p align="center">
-  <img src="Watson Create Classifier/Screenshot/input2.PNG"/ width=600px>
+  <img src="Screenshot/input2.PNG"/ width=600px>
 </p>
 	
 	
@@ -48,7 +48,7 @@ If you wish to use your new classifier in other nodes save the 'classifier ID'!
 
 
 <p align="center">
-  <img src="Watson Create Classifier/Screenshot/output.PNG"/ width=600px>
+  <img src="Screenshot/output.PNG"/ width=600px>
 </p>
 
 You can test how well your classifier works using the ['WatsonVisualRecognition'][2] extension!
